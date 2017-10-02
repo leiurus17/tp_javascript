@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Javascript Method toExponential</title>
+	</head>
+	
+	<body>
+		<script type="text/javascript">
+			var num = 177.1234;
+			
+			var val = num.toFixed();
+			document.write("num.toFixed() is: " + val);
+			document.write("<br />");
+			
+			val = num.toFixed(6);
+			document.write("num.toFixed(6) is: " + val);
+			document.write("<br />");
+			
+			val = num.toFixed(1);
+			document.write("num.toFixed(1) is: " + val);
+			document.write("<br />");
+			
+			document.write("(1.23e+20).toFixed(2) is: " + (1.23e+20).toFixed(2));
+			document.write("<br />");
+			
+			document.write("(1.23e-20).toFixed(2) is: " + (1.23e-20).toFixed(2));
+		</script>
+	</body>
+</html>
