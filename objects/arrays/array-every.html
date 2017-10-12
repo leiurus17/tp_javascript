@@ -30,6 +30,8 @@
 				return (element >= 10);
 			}
 			
+			// var isSmallEnough = 1;
+			
 			var passed = [12, 5, 8, 130, 44].every(isBigEnough);
 			document.write("First Test Value: " + passed);
 			
@@ -37,6 +39,9 @@
 			
 			passed = [12, 54, 18, 130, 44].every(isBigEnough);
 			document.write("Second Test Value: " + passed);
+			
+			// passed = [12, 54, 18, 130, 44].every(isSmallEnough); // Test the type error
+			// document.write("Second Test Value: " + passed);
 		</script>
 	</body>
 </html>
